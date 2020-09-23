@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CoverComponent } from './cover/cover.component';
+import { HamburgerComponent } from './sidebar/hamburger/hamburger.component';
+import { MediaComponent } from './sidebar/media/media.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    CoverComponent
+    CoverComponent,
+    HamburgerComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule

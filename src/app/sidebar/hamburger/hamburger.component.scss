@@ -1,0 +1,53 @@
+@import '../../../colors.scss';
+
+.hamburger-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 101px;
+  height: 100px;
+  transition: .3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $gray-2;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    transform: translate(-50%, -50%);
+
+    span {
+      display: block;
+      margin: 0 auto;
+      width: 33px;
+      height: 4px;
+      margin-bottom: 5px;
+      position: relative;
+      background: #cdcdcd;
+      border-radius: 3px;
+      transition: .5s;
+    }
+  }
+}
+
+.active {
+  background-color: $gray;
+
+  span:nth-child(1) {
+    transform: rotate(-45deg) translate(-11px, 2px);
+  }
+
+  span:nth-child(2) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  span:nth-child(3) {
+    transform: rotate(45deg) translate(-10px, -1px);
+  }
+}

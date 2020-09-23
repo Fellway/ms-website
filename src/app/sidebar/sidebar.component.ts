@@ -14,8 +14,7 @@ export class SidebarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toggle() {
-    console.log("test");
+  toogle() {
     this.visible = !this.visible;
   }
 }
