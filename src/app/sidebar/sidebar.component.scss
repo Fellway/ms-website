@@ -1,0 +1,54 @@
+@import '../../colors.scss';
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  height: 100vh;
+  text-align: center;
+  color: $primary-white-1;
+  background-color: $primary-black;
+  border-right: 1px solid $gray;
+  transition: .5s;
+}
+
+.hamburger-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 101px;
+  height: 100px;
+  background-color: $gray;
+}
+
+.media {
+  width: 100px;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.icon {
+  width: auto;
+  height: auto;
+  margin-bottom: 50px;
+  font-size: 25px;
+  transition: .3s;
+  transform: translateY(-10%);
+
+  &:hover {
+    cursor: pointer;
+    color: yellow;
+    transform: scale(1.5);
+    text-shadow: 0px 0px 5px rgb(236, 174, 3);
+
+  }
+}
+
+.show {
+  width: 100px;
+}
+
+.hide {
+  margin-left: -100px;
+}
