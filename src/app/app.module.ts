@@ -6,6 +6,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { CoverComponent } from './cover/cover.component';
 import { HamburgerComponent } from './sidebar/hamburger/hamburger.component';
 import { MediaComponent } from './sidebar/media/media.component';
+import { WelcomeComponent } from './cover/welcome/welcome.component';
+import { MenuBarComponent } from './cover/menu-bar/menu-bar.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { MediaComponent } from './sidebar/media/media.component';
     SidebarComponent,
     CoverComponent,
     HamburgerComponent,
-    MediaComponent
+    MediaComponent,
+    WelcomeComponent,
+    MenuBarComponent
   ],
   imports: [
     BrowserModule
