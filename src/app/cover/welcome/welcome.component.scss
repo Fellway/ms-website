@@ -17,7 +17,7 @@
 }
 
 .subheader {
-  margin-top: 30px;
+  margin-top: 10px;
   font-family: 'Istok Web', sans-serif;
   font-size: 1.5vw;
   text-align: right;
@@ -28,5 +28,19 @@
     height: 2px;
     background-color: $primary-white-1;
     display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    left: 50%;
+  }
+
+  .header {
+    font-size: 5vw;
+  }
+
+  .subheader {
+    font-size: 3vw;
   }
 }

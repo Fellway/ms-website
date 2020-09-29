@@ -1,8 +1,14 @@
-.cover {
-  height: 100%;
+.image {
+  height: 100vh;
   width: 100%;
   background-image: url("../../assets/images/cover4.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+@media (max-width: 767px) {
+  .image {
+    width: 0;
+  }
 }

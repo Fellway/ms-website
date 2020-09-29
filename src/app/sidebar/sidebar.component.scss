@@ -9,6 +9,7 @@
   background-color: $primary-black;
   border-right: 1px solid $gray;
   transition: .5s;
+  z-index: 1;
 }
 
 .visible {

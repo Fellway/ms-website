@@ -8,6 +8,8 @@ import { HamburgerComponent } from './sidebar/hamburger/hamburger.component';
 import { MediaComponent } from './sidebar/media/media.component';
 import { WelcomeComponent } from './cover/welcome/welcome.component';
 import { MenuBarComponent } from './cover/menu-bar/menu-bar.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { MenuBarComponent } from './cover/menu-bar/menu-bar.component';
     HamburgerComponent,
     MediaComponent,
     WelcomeComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    AboutMeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
