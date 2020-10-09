@@ -1,14 +1,30 @@
 @import 'colors.scss';
 
+.section-header,
+.section-text {
+  color: $primary-white-1;
+}
+
 .section-header {
-  display: inline-block;
-  left: calc(50% + 20px);
-  margin: 0 auto;
+  margin-bottom: 50px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  position: relative;
-  letter-spacing: 0.3vw;
-  font-size: 1em;
+  letter-spacing: 4px;
+  font-size: 1.5em;
   color: $primary-white-1;
+  text-shadow: 0px 0px 1px rgb(236, 174, 3);
+}
+
+.section-text {
+  text-indent: 15px;
+  text-align: justify;
+  margin-top: 10px;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+p {
+  margin-bottom: 35px;
 }
