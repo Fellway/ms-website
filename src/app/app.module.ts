@@ -10,6 +10,7 @@ import { WelcomeComponent } from './cover/welcome/welcome.component';
 import { MenuBarComponent } from './cover/menu-bar/menu-bar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ArrowComponent } from './cover/arrow/arrow.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MediaComponent,
     WelcomeComponent,
     MenuBarComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ArrowComponent
   ],
   imports: [
     BrowserModule,

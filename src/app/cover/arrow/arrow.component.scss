@@ -1,0 +1,78 @@
+@import '../../../colors.scss';
+
+.arrow {
+  display: none;
+}
+
+.animation {
+  -webkit-animation: pulse 3s ease-in-out infinite both;
+  animation: pulse 3s ease-in-out infinite both;
+}
+
+span {
+  background-color: $primary-white-1;
+  border-radius: 30%;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+
+  &:first-child {
+    transform: rotate(45deg) translateX(-50%);
+  }
+
+  &:nth-child(2) {
+    transform: rotate(-45deg) translateX(50%);
+  }
+
+  &:nth-child(3) {
+    width: calc(100% + 10px);
+    transform: rotate(90deg) translate(-50%, 165%);
+  }
+}
+
+@media (max-width: 767px) {
+  .arrow {
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 15%;
+    left: 50%;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
