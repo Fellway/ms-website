@@ -28,3 +28,20 @@
 p {
   margin-bottom: 35px;
 }
+
+#about-me, #career {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  display: inline-block;
+  background-color: $primary-black;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+@media (max-width: 767px) {
+  #about-me, #career {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

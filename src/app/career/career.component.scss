@@ -1,0 +1,66 @@
+@import '../../colors.scss';
+@import '../../shared.scss';
+
+.timeline {
+    width: 100%;
+    position: relative;
+
+
+    .line {
+        background-color: $primary-white-1;
+        position: absolute;
+        left: 50%;
+        width: 2px;
+        height: 100%;
+        transform: translateX(-50%);
+    }
+
+    .text {
+        width: 45%;
+    }
+
+    .right {
+        margin-left: auto;
+    }
+
+    .box {
+        width: 100%;
+        position: relative;
+
+        .dot {
+            position: absolute;
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+            background-color: $primary-white-1;
+            transition: .3s;
+            left: 50%;
+            transform: translateX(-50%);
+
+            &:hover {
+                cursor: pointer;
+            }
+        }        
+    }
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        .line {
+            left: 0; 
+        }
+
+        .text {
+            width: 100%;
+            padding-left: 50px;
+        }
+
+        .box {
+            width: 100%;
+
+            .dot {
+                left: 0;
+            }
+        }
+    }
+  }
