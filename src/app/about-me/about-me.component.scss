@@ -10,7 +10,7 @@
 }
 
 .text-wrapper {
-  width: 70%;
+  width: 65%;
   color: $primary-white-1;
 }
 
@@ -20,11 +20,12 @@
 
   p {
     text-align: justify;
+    padding: 0 20px;
   }
 }
 
 .image-wrapper {
-  width: 30%;
+  width: 35%;
   height: 100%;
 
   .image {
