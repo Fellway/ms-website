@@ -11,6 +11,7 @@ import { MenuBarComponent } from './cover/menu-bar/menu-bar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ArrowComponent } from './cover/arrow/arrow.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ArrowComponent } from './cover/arrow/arrow.component';
     WelcomeComponent,
     MenuBarComponent,
     AboutMeComponent,
-    ArrowComponent
+    ArrowComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,
