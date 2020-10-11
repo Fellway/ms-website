@@ -19,7 +19,7 @@
 .section-text {
   text-indent: 15px;
   text-align: justify;
-  margin-top: 10px;
+  margin: 10px auto;
   font-family: 'Istok Web', sans-serif;
   font-size: 1em;
   letter-spacing: 1px;
@@ -27,9 +27,11 @@
 
 p {
   margin-bottom: 35px;
+  max-width: 600px;
 }
 
-#about-me, #career {
+#about-me,
+#career {
   width: 100%;
   height: auto;
   padding-top: 100px;
@@ -40,7 +42,9 @@ p {
 }
 
 @media (max-width: 767px) {
-  #about-me, #career {
+
+  #about-me,
+  #career {
     padding-left: 50px;
     padding-right: 50px;
   }
