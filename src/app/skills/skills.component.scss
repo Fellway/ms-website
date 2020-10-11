@@ -1,1 +1,40 @@
-@import '../../shared.scss'
+@import '../../shared.scss';
+@import '../../colors.scss';
+
+.technology,
+.language,
+.tools {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.skill {
+  width: 100px;
+  color: $primary-white-1;
+  text-align: center;
+  margin: 20px 40px;
+  font-family: 'Istok Web', sans-serif;
+
+  i {
+    height: 80px;
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+
+  .skill-description {
+    font-size: 1.3em;
+  }
+
+  .experience {
+    font-size: 1em;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .skill {
+    margin: 40px 0;
+  }
+}
