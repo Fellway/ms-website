@@ -1,0 +1,72 @@
+@import '../../colors.scss';
+@import '../../shared.scss';
+
+#footer {
+  width: 100%;
+  background-color: $dark-black;
+  padding: 50px;
+}
+
+.category {
+  margin: 20px;
+  display: inline-block;
+  color: $gray-2;
+  font-size: 0.9em;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    color: $primary-white-1;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.line {
+  max-width: 600px;
+  height: 1px;
+  width: 100%;
+  background-color: $gray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  i {
+    font-size: 40px;
+    color: $gray-2;
+  }
+}
+
+.contact {
+  padding: 20px 0;
+  display: inline-block;
+}
+
+.data {
+  color: $gray-2;
+  font-size: 1em;
+}
+
+.description {
+  color: $primary-white-1;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+@media (max-width: 767px) {
+  .contact-wrapper {
+    grid-template-columns: 100%;
+  }
+}

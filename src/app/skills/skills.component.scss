@@ -10,11 +10,17 @@
   margin-bottom: 40px;
 }
 
+.grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .skill {
   width: 100px;
   color: $primary-white-1;
   text-align: center;
-  margin: 20px 40px;
+  margin: 20px 0px;
   font-family: 'Istok Web', sans-serif;
 
   i {
@@ -34,7 +40,11 @@
 
 
 @media (max-width: 767px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .skill {
-    margin: 40px 0;
+    margin: 15px 0;
   }
 }
