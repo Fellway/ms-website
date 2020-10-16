@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ms-website-000"
+  },
+  "targets": {
+    "ms-website-000": {
+      "hosting": {
+        "ms-app": [
+          "ms-website-000"
+        ]
+      }
+    }
+  }
+}
