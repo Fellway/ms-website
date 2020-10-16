@@ -44,11 +44,13 @@ p {
 #skills {
   width: 100%;
   height: auto;
-  padding-top: 100px;
   display: inline-block;
   background-color: $primary-black;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding: 100px 150px;
+}
+
+#cover {
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -56,6 +58,8 @@ p {
   #about-me,
   #career,
   #skills {
+    padding-top: 0;
+    padding-bottom: 100px;
     padding-left: 50px;
     padding-right: 50px;
   }
