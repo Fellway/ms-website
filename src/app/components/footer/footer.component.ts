@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,5 +12,4 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
