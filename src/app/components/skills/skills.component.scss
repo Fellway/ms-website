@@ -1,5 +1,5 @@
-@import '../../shared.scss';
-@import '../../colors.scss';
+@import '../../styles/shared.scss';
+@import '../../styles/colors.scss';
 
 .technology,
 .language,
@@ -18,7 +18,7 @@
 
 .skill {
   width: 100px;
-  color: $primary-white-1;
+  color: $primary-white;
   text-align: center;
   margin: 20px 0px;
   font-family: 'Istok Web', sans-serif;

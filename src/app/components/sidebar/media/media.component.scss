@@ -1,4 +1,4 @@
-@import '../../../colors.scss';
+@import '../../../styles/colors';
 
 .media {
   width: 100px;
@@ -17,7 +17,7 @@
 
   &:hover {
     cursor: pointer;
-    color: $primary-white-1;
+    color: $primary-white;
     transform: scale(1.5);
     text-shadow: 0px 0px 5px rgb(236, 174, 3);
   }

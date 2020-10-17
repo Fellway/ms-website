@@ -1,5 +1,5 @@
 <div class="bar">
-  <div class="number" *ngFor="let section of sections; let i = index">
+  <div *ngFor="let section of sections; let i = index" class="number">
     <span [class.active]="i == 0">0{{i + 1}}</span>
   </div>
 </div>

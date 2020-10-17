@@ -1,11 +1,11 @@
-@import '../../colors.scss';
+@import '../../styles/colors.scss';
 
 #sidebar {
   position: fixed;
   width: 100px;
   height: 100vh;
   text-align: center;
-  color: $primary-white-1;
+  color: $primary-white;
   background-color: $primary-black;
   border-right: 1px solid $gray;
   transition: .5s;

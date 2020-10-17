@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
@@ -9,7 +9,8 @@ export class MenuBarComponent implements OnInit {
 
   sections: Array<string>;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
     this.sections = ['cover', 'about', 'projects', 'contact'];

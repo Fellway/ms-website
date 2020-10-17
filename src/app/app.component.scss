@@ -1,4 +1,8 @@
-@import '../colors.scss';
+@import 'styles/colors';
+
+html {
+  scroll-behavior: smooth;
+}
 
 .app {
   background-color: $primary-black;

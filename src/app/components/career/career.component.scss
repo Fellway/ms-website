@@ -1,5 +1,5 @@
-@import '../../colors.scss';
-@import '../../shared.scss';
+@import '../../styles/colors.scss';
+@import '../../styles/shared.scss';
 
 .timeline {
   width: 100%;
@@ -17,7 +17,7 @@
     width: max-content;
     padding: 0 10px;
     height: 30px;
-    background-color: $primary-white-1;
+    background-color: $primary-white;
     text-align: center;
     line-height: 30px;
     border-radius: 10px;
@@ -38,7 +38,7 @@
     letter-spacing: 1px;
     text-align: right;
     font-size: 1.5em;
-    color: $primary-white-1;
+    color: $primary-white;
     margin: 20px 0;
   }
 
@@ -51,7 +51,7 @@
   }
 
   .line {
-    background-color: $primary-white-1;
+    background-color: $primary-white;
     position: absolute;
     left: 50%;
     width: 2px;
@@ -73,7 +73,7 @@
       height: 14px;
       width: 14px;
       border-radius: 50%;
-      background-color: $primary-white-1;
+      background-color: $primary-white;
       transition: .3s;
       left: 50%;
       top: 50%;

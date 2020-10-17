@@ -1,5 +1,5 @@
 <div class="sidebar-wrapper">
-  <app-hamburger [clicked]="visible" (visibleEvent)="toogle()"></app-hamburger>
-  <app-media id="sidebar" [className]="visible ? 'visible' : 'hidden'">
+  <app-hamburger (visibleEvent)="toogle()" [clicked]="visible"></app-hamburger>
+  <app-media [className]="visible ? 'visible' : 'hidden'" id="sidebar">
   </app-media>
 </div>

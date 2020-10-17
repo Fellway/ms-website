@@ -1,4 +1,4 @@
-@import '../../../colors.scss';
+@import '../../../styles/colors.scss';
 
 .arrow {
   display: none;
@@ -10,7 +10,7 @@
 }
 
 span {
-  background-color: $primary-white-1;
+  background-color: $primary-white;
   border-radius: 30%;
   width: 100%;
   height: 3px;

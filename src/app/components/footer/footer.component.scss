@@ -1,5 +1,5 @@
-@import '../../colors.scss';
-@import '../../shared.scss';
+@import '../../styles/colors.scss';
+@import '../../styles/shared.scss';
 
 #footer {
   width: 100%;
@@ -16,7 +16,7 @@
 
   &:hover {
     cursor: pointer;
-    color: $primary-white-1;
+    color: $primary-white;
   }
 }
 
@@ -60,7 +60,7 @@
 }
 
 .description {
-  color: $primary-white-1;
+  color: $primary-white;
   font-size: 1.2em;
   margin: 10px 0;
 }
