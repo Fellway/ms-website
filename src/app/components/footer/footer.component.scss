@@ -13,9 +13,12 @@ a {
 }
 
 .category {
+  a {
+    text-decoration: none;
+    color: $yellow;
+  }
   margin: 20px;
   display: inline-block;
-  color: $gray-2;
   font-size: 0.9em;
   transition: 0.3s;
 
@@ -35,7 +38,7 @@ a {
   max-width: 600px;
   height: 1px;
   width: 100%;
-  background-color: $gray;
+  background-color: $primary-white;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -50,7 +53,7 @@ a {
 
   i {
     font-size: 40px;
-    color: $gray-2;
+    color: $yellow;
   }
 }
 
@@ -60,7 +63,7 @@ a {
 }
 
 .data {
-  color: $gray-2;
+  color: $yellow;
   font-size: 1em;
 }
 

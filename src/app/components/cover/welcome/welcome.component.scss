@@ -6,7 +6,6 @@
   left: 50%;
   color: $primary-white;
   transform: translate(-50%, -50%);
-  text-shadow: 0 0 1px $gold;
 }
 
 .header {
@@ -26,7 +25,7 @@
     content: ' ';
     width: 20px;
     height: 2px;
-    background-color: $primary-white;
+    background-color: $primary-black;
     display: inline-block;
   }
 }

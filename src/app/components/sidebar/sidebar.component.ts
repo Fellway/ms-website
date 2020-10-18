@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  visible: boolean = true;
+  visible = false;
 
   constructor() {
   }
@@ -15,7 +15,7 @@ export class SidebarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toogle() {
+  toggle(): void {
     this.visible = !this.visible;
   }
 }
