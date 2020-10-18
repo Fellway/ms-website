@@ -7,6 +7,11 @@
   padding: 50px;
 }
 
+a {
+  text-decoration: none;
+  color: $primary-white;
+}
+
 .category {
   margin: 20px;
   display: inline-block;

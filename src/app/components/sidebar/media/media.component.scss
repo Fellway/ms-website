@@ -8,6 +8,9 @@
 }
 
 .icon {
+  display: block;
+  text-decoration: none;
+  color: $primary-white;
   width: auto;
   height: auto;
   margin-bottom: 50px;
