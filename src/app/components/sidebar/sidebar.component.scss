@@ -5,8 +5,7 @@
   width: 100px;
   height: 100vh;
   text-align: center;
-  color: $primary-white;
-  background-color: $primary-black;
+  background-color: $yellow;
   border-right: 1px solid $gray;
   transition: .5s;
   z-index: 1;
@@ -21,7 +20,7 @@
 }
 
 @media (max-width: 767px) {
-  .sidebar-wrapper {
-    display: none;
+  #sidebar {
+    width: 60px;
   }
 }

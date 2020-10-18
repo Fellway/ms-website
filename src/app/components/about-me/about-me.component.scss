@@ -1,10 +1,9 @@
-@import '../../styles/colors';
-@import '../../styles/shared';
+@import '../../styles/colors.scss';
+@import '../../styles/shared.scss';
 
 .image-wrapper,
 .text-wrapper {
   float: right;
-  text-align: center;
 }
 
 .text-wrapper {
@@ -17,12 +16,12 @@
   margin: 0 auto;
 
   p {
-    text-align: justify;
     padding: 0 20px;
   }
 }
 
 .image-wrapper {
+  text-align: center;
   width: 35%;
   height: 100%;
 
@@ -39,7 +38,9 @@
 }
 
 @media (max-width: 767px) {
-
+  #about-me {
+    padding-top: 50px;
+  }
   .image-wrapper,
   .text-wrapper {
     float: none;

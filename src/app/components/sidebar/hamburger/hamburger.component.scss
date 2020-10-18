@@ -5,13 +5,20 @@
   top: 0;
   left: 0;
   z-index: 2;
-  width: 101px;
+  width: 100px;
   height: 100px;
   transition: .3s;
   cursor: pointer;
+  background-color: $primary-black;
 
   &:hover {
-    background-color: $gray-2;
+    background-color: $primary-black;
+
+    .hamburger {
+      span {
+        background-color: $yellow;
+      }
+    }
   }
 
   .hamburger {
@@ -24,10 +31,10 @@
     span {
       display: block;
       width: 33px;
-      height: 1px;
+      height: 2px;
       margin: 0 auto 8px;
       position: relative;
-      background: #cdcdcd;
+      background: $yellow;
       border-radius: 3px;
       transition: .5s;
     }
@@ -35,8 +42,12 @@
 }
 
 .active {
-  background-color: $gray;
-
+  background-color: $yellow;
+  .hamburger {
+    span {
+      background-color: $primary-black;
+    }
+  }
   span:nth-child(1) {
     transform: rotate(-45deg) translate(-11px, 2px);
   }
@@ -48,5 +59,28 @@
 
   span:nth-child(3) {
     transform: rotate(45deg) translate(-10px, -1px);
+  }
+}
+
+@media (max-width: 767px) {
+  .hamburger-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .active {
+    background-color: $primary-black !important;
+    span:nth-child(1) {
+      transform: rotate(-45deg) translate(-10px, 7px);
+    }
+
+    span:nth-child(2) {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    span:nth-child(3) {
+      transform: rotate(45deg) translate(-6px, -2px);
+    }
   }
 }
