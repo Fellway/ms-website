@@ -69,7 +69,6 @@
   }
 
   .active {
-    background-color: $primary-black !important;
     span:nth-child(1) {
       transform: rotate(-45deg) translate(-10px, 7px);
     }
