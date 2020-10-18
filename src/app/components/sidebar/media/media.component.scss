@@ -1,5 +1,9 @@
 @import '../../../styles/colors';
 
+a {
+  color: $primary-white;
+}
+
 .media {
   width: 100px;
   height: 100vh;
@@ -10,7 +14,6 @@
 .icon {
   display: block;
   text-decoration: none;
-  color: $primary-white;
   width: auto;
   height: auto;
   margin-bottom: 50px;

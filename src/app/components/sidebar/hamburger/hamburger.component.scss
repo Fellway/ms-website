@@ -9,16 +9,9 @@
   height: 100px;
   transition: .3s;
   cursor: pointer;
-  background-color: $primary-black;
 
   &:hover {
-    background-color: $primary-black;
-
-    .hamburger {
-      span {
-        background-color: $yellow;
-      }
-    }
+    background-color: $gray-2;
   }
 
   .hamburger {
@@ -34,7 +27,7 @@
       height: 2px;
       margin: 0 auto 8px;
       position: relative;
-      background: $yellow;
+      background: $primary-white;
       border-radius: 3px;
       transition: .5s;
     }
@@ -42,12 +35,8 @@
 }
 
 .active {
-  background-color: $yellow;
-  .hamburger {
-    span {
-      background-color: $primary-black;
-    }
-  }
+  background-color: $gray;
+
   span:nth-child(1) {
     transform: rotate(-45deg) translate(-11px, 2px);
   }
