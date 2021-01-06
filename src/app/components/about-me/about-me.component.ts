@@ -7,6 +7,8 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AboutMeComponent implements OnInit {
 
+  exp = new Date().getFullYear() - new Date("2019-01-12").getFullYear();
+
   constructor() {
   }
 
