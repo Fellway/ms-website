@@ -1,5 +1,9 @@
 @import 'colors.scss';
 
+* {
+  margin: 0;
+  padding: 0;
+}
 .section-header,
 .section-text,
 .subheader,
@@ -46,6 +50,12 @@ p {
 }
 
 #about-me,
+#skills {
+  background-color: $primary-white !important;
+  color: $primary-black !important;
+}
+
+#about-me,
 #career,
 #skills {
   width: 100%;
@@ -53,6 +63,7 @@ p {
   display: inline-block;
   background-color: $primary-black;
   padding: 100px 150px;
+  position: relative;
 }
 
 #cover {
@@ -64,7 +75,7 @@ p {
   #about-me,
   #career,
   #skills {
-    padding: 0 50px 100px;
+    padding: 0 10px 150px;
   }
 
   #cover {

@@ -6,14 +6,24 @@
   float: right;
 }
 
+#about-me {
+  background-color: $primary-white;
+}
+
 .text-wrapper {
   width: 65%;
-  color: $primary-white;
+  color: $primary-black;
+}
+
+.section-text, .section-header {
+  color: $primary-black;
 }
 
 .text {
+  text-align: justify;
   max-width: 600px;
   margin: 0 auto;
+  color: $primary-black;
 
   p {
     padding: 0 20px;
@@ -26,8 +36,6 @@
   height: 100%;
 
   .image {
-    box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
     position: relative;
     top: 50%;
     left: 50%;

@@ -1,0 +1,34 @@
+.custom-shape-divider {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: -7px;
+}
+
+.custom-shape-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.black {
+  fill: #111111;
+}
+
+.invert {
+  transform: rotate(180deg);
+}
+
+.white {
+  fill: #EEEEEE;
+}

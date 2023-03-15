@@ -14,6 +14,7 @@ import {ArrowComponent} from './components/cover/arrow/arrow.component';
 import {CareerComponent} from './components/career/career.component';
 import {SkillsComponent} from './components/skills/skills.component';
 import {FooterComponent} from './components/footer/footer.component';
+import { ShapeDeviderComponent } from './components/shape-devider/shape-devider/shape-devider.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {FooterComponent} from './components/footer/footer.component';
     ArrowComponent,
     CareerComponent,
     SkillsComponent,
-    FooterComponent
+    FooterComponent,
+    ShapeDeviderComponent
   ],
   imports: [
     BrowserModule,

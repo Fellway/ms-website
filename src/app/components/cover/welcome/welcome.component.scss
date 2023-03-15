@@ -4,21 +4,29 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  display: grid;
   color: $primary-white;
   transform: translate(-50%, -50%);
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 .header {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 0.3vw;
-  font-size: 3vw;
+  text-align: center;
+  font-size: 2vw;
 }
 
 .subheader {
   margin-top: 10px;
   font-family: 'Istok Web', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: right;
 
   &::before {

@@ -1,6 +1,10 @@
 @import '../../styles/shared.scss';
 @import '../../styles/colors.scss';
 
+.section-header, .subheader {
+  color: $primary-black;
+}
+
 .technology,
 .language,
 .tools {
@@ -18,7 +22,7 @@
 
 .skill {
   width: 100px;
-  color: $primary-white;
+  color: $primary-black;
   text-align: center;
   margin: 20px 0;
   font-family: 'Istok Web', sans-serif;
